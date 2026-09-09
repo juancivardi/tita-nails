@@ -1,17 +1,15 @@
 export default function Home() {
   return (
     <main>
-      <section className="flex min-h-[80vh] items-center px-6">
+      <section className="flex min-h-[65vh] items-center px-6">
         <div className="mx-auto w-full max-w-7xl">
           <div className="max-w-2xl">
             <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-black">
               Tita Nails
             </p>
 
-            <h1 className="text-3xl font-semi leading-tight text-black md:text-4xl">
-              Tus uñas,
-              <br />
-              <span className="text-[#B89B5E]">tu estilo.</span>
+            <h1 className="text-3xl font-semi leading-tight text-[#B89B5E] md:text-4xl">
+              Encontrá tu mejor versión.
             </h1>
 
             <p className="mt-6 max-w-lg text-lg leading-relaxed text-gray-600">

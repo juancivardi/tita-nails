@@ -1,34 +1,16 @@
 import Link from "next/link";
-
-const servicios = [
-  {
-    nombre: "Kapping",
-    descripcion: "Cubri y reforzá tu uña con la técnica más elegida.",
-  },
-  {
-    nombre: "Esculpidas",
-    descripcion: "Conseguí ese largo que buscas con nuestras esculpidas.",
-  },
-  {
-    nombre: "Soft gel",
-    descripcion: "Interesante, flexible y delicado: Soft gel.",
-  },
-  {
-    nombre: "Semipermanente",
-    descripcion: "Delicado y natural, elegí el color que más te guste sobre tus uñas.",
-  },
-];
+import { servicios } from "@/data/servicios";
 
 export default function ServiciosDestacados() {
   return (
-    <section className="bg-white px-6 py-20">
+    <section className="bg-white px-6 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center">
-          <p className="text-sm font-medium uppercase tracking-[0.3em] text-[#B89B5E]">
+          <p className="text-m font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
             Nuestros servicios
           </p>
 
-          <h2 className="mt-3 text-4xl font-semibold text-gray-900">
+          <h2 className="mt-3 text-2xl font-semibold text-gray-900">
             Los favoritos de nuestras clientas
           </h2>
 
@@ -63,7 +45,7 @@ export default function ServiciosDestacados() {
             href="/servicios"
             className="inline-block border border-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-pink-200"
           >
-            Ver todos los servicios
+            Conocé más de nuestros servicios
           </Link>
         </div>
       </div>

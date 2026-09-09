@@ -1,11 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#f5a6f3] px-6 py-10 text-black text-white">
+    <footer className="bg-[#f5a6f3] px-6 py-10 text-black text-gray-900">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-white">Tita Nails</h2>
-            <p className="mt-2 text-sm text-white">
+            <h2 className="text-2xl font-semibold">Tita Nails</h2>
+            <p className="mt-2 text-sm">
               Belleza, cuidado y estilo en cada detalle.
             </p>
           </div>

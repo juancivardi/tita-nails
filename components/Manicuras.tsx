@@ -1,34 +1,16 @@
 import Link from "next/link";
-
-const manicuras = [
-  {
-    nombre: "Nombre 1",
-    descripcion: "Especialidad o breve descripción.",
-  },
-  {
-    nombre: "Nombre 2",
-    descripcion: "Especialidad o breve descripción.",
-  },
-  {
-    nombre: "Nombre 3",
-    descripcion: "Especialidad o breve descripción.",
-  },
-  {
-    nombre: "Nombre 4",
-    descripcion: "Especialidad o breve descripción.",
-  },
-];
+import { manicuras } from "@/data/manicuras";
 
 export default function Manicuras() {
   return (
     <section className="bg-pink-200 px-6 py-20">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center">
-          <p className="text-sm font-medium uppercase tracking-[0.3em] text-[#B89B5E]">
+          <p className="text-m font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
             Nuestro equipo
           </p>
 
-          <h2 className="mt-3 text-4xl font-semibold text-black">
+          <h2 className="mt-3 text-2xl font-semibold text-gray-900">
             Conocé a nuestras manicuras
           </h2>
 
