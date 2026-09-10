@@ -1,4 +1,7 @@
 import Image from "next/image";
+import ServiciosDestacados from "@/components/ServiciosDestacados";
+import Historia from "@/components/Historia";
+import Contacto from "@/components/Contacto";
 
 export default function Home() {
   return (
@@ -47,6 +50,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ServiciosDestacados />
+      <Historia />
+      <Contacto />
     </main>
   );
 }

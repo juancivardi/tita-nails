@@ -11,11 +11,11 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-6 text-sm">
-            <a href="#" className="hover:text-[#B89B5E]">
+            <a href="https://www.instagram.com/titaa.nails/" target="_blank" className="hover:text-[#B89B5E]">
               Instagram
             </a>
 
-            <a href="#" className="hover:text-[#B89B5E]">
+            <a href="https://wa.me/542216267940" target="_blank" className="hover:text-[#B89B5E]">
               WhatsApp
             </a>
           </div>

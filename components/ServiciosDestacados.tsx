@@ -7,22 +7,23 @@ export default function ServiciosDestacados() {
     <section className="relative px-6 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center">
-          <p className="text-m font-serif uppercase tracking-[0.2em] text-[#B89B5E]">
+          <p className="text-m font-semibold font-serif uppercase tracking-[0.2em] text-[#B89B5E]">
             Nuestros servicios
           </p>
 
-          <h2 className="mt-3 text-2xl  text-gray-900">
+          <h2 className="mt-3 text-2xl text-gray-800">
             Los favoritos de nuestras clientas
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+          <p className="mx-auto mt-4 max-w-2xl text-gray-700">
             Descubrí algunos de los servicios más elegidos en Tita Nails.
           </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {servicios.map((servicio) => (
-            <article
+            <a
+              href="/servicios"
               key={servicio.nombre}
               className="border border-[#B89B5E] bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#B89B5E]/50 hover:shadow-lg"
             >
@@ -45,16 +46,16 @@ export default function ServiciosDestacados() {
               <p className="mt-3 text-sm leading-relaxed text-black">
                 {servicio.descripcion}
               </p>
-            </article>
+            </a>
           ))}
         </div>
 
         <div className="mt-10 text-center">
           <Link
             href="/servicios"
-            className="inline-block border border-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-[#B89B5E]"
+            className="border border-white inline-block bg-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-white hover:border-[#B89B5E]"
           >
-            Conocé más de nuestros servicios
+            Conocé más
           </Link>
         </div>
       </div>

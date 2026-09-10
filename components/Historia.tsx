@@ -20,7 +20,7 @@ export default function Historia() {
           </div>
 
           <div className="order-1 md:order-2">
-            <p className="text-sm font-serif uppercase tracking-[0.2em] text-[#B89B5E]">
+            <p className="text-sm font-serif font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
               Nuestra historia
             </p>
 
