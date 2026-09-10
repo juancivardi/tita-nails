@@ -3,8 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
+      
       <section className="flex min-h-[65vh] items-center px-6">
         <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2 md:gap-16">
+          
           <div className="relative mx-auto w-full max-w-[250px]">
             <div className="relative aspect-[5/5] overflow-hidden rounded">
               <Image

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ServiciosDestacados() {
   return (
-    <section className="bg-white px-6 py-10">
+    <section className="relative px-6 py-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center">
           <p className="text-m font-serif uppercase tracking-[0.2em] text-[#B89B5E]">

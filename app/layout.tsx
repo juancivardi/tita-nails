@@ -19,6 +19,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="bg-white">
+        {/* Imagen de fondo */}
+          <div
+            className="absolute fixed inset-0 -z-10 bg-cover bg-center opacity-20"
+            style={{ backgroundImage: "url('/images/local2.jpg')" }}
+          />
         <Navbar />
 
         <main>{children}</main>
