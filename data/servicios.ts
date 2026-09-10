@@ -7,7 +7,7 @@ export interface Servicio {
 export const servicios: Servicio[] = [
   {
     nombre: "Kapping",
-    descripcion: "Elegí proteger y embellecer tus uñas con el servicios más elegido.",
+    descripcion: "Elegí proteger y embellecer tus uñas con el servicio más elegido.",
     imagen: "/images/kapping.jpg",
   },
   {

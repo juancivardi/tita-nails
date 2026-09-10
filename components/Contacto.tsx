@@ -27,8 +27,9 @@ export default function Contacto() {
                     WhatsApp
                   </p>
                   <a
-                    href="#"
+                    href="https://wa.me/542216267940"
                     className="mt-1 block font-semibold text-black hover:text-[#B89B5E]"
+                    target="_blank"
                   >
                     2216267940
                   </a>
@@ -39,10 +40,11 @@ export default function Contacto() {
                     Instagram
                   </p>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/titaa.nails/"
                     className="mt-1 block font-semibold text-black hover:text-[#B89B5E]"
+                    target="_blank"
                   >
-                    @titanails
+                    @titaa.nails
                   </a>
                 </div>
 
@@ -88,8 +90,9 @@ export default function Contacto() {
                     WhatsApp
                   </p>
                   <a
-                    href="#"
+                    href="https://wa.me/541170801195"
                     className="mt-1 block font-semibold text-black hover:text-[#B89B5E]"
+                    target="_blank"
                   >
                     1170801195
                   </a>
@@ -100,10 +103,11 @@ export default function Contacto() {
                     Instagram
                   </p>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/titaa.nails/"
                     className="mt-1 block font-semibold text-black hover:text-[#B89B5E]"
+                    target="_blank"
                   >
-                    @titanails
+                    @titaa.nails
                   </a>
                 </div>
 
