@@ -7,6 +7,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Tita Nails",
   description: "Centro de uñas Tita Nails",
+  icons: {
+    icon: "/images/logo-png.png",
+  },
 };
 
 export default function RootLayout({
