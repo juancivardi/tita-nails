@@ -1,6 +1,7 @@
 export interface Servicio {
   nombre: string;
   descripcion: string;
+  imagen: string;
 }
 
 export const servicios: Servicio[] = [
