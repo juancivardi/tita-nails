@@ -1,14 +1,24 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
       <section className="flex min-h-[65vh] items-center px-6">
-        <div className="mx-auto w-full max-w-7xl">
-          <div className="max-w-2xl">
-            <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-black">
-              Tita Nails
-            </p>
+        <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2 md:gap-16">
+          <div className="relative mx-auto w-full max-w-[250px]">
+            <div className="relative aspect-[5/5] overflow-hidden rounded">
+              <Image
+                src="/images/logo-png.png"
+                alt="Tita Nails, centro de estetica de uñas"
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
+            </div>
+          </div>
 
-            <h1 className="text-3xl font-semi leading-tight text-[#B89B5E] md:text-4xl">
+          <div className="max-w-2xl">
+            <h1 className="text-3xl font-serif leading-tight text-[#B89B5E] md:text-4xl">
               Encontrá tu mejor versión.
             </h1>
 
@@ -20,7 +30,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="/servicios"
-                className="rounded-full bg-pink-300 px-7 py-3 text-sm font-medium text-black transition hover:bg-pink-400"
+                className="rounded-full bg-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-[#ebcf94]"
               >
                 Ver servicios
               </a>

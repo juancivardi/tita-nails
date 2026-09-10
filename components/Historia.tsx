@@ -1,23 +1,26 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Historia() {
   return (
     <section className="bg-white px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <div className="grid items-center gap-12 md:grid-cols-2">
-          {/* Imagen */}
-          <div className="order-2 md:order-1">
-            <div className="aspect-[4/5] overflow-hidden bg-pink-200">
-              {/* Más adelante colocamos una foto real de Tita Nails */}
-              <div className="flex h-full items-center justify-center">
-                <span className="text-5xl text-[#B89B5E]">✦</span>
-              </div>
+          
+          <div className="relative mx-auto w-full max-w-md">
+            <div className="relative aspect-[4/5] overflow-hidden rounded shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+              <Image
+                src="/images/local1.jpg"
+                alt="Tita Nails, centro de estetica de uñas"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
             </div>
           </div>
 
-          {/* Texto */}
           <div className="order-1 md:order-2">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
+            <p className="text-sm font-serif uppercase tracking-[0.2em] text-[#B89B5E]">
               Nuestra historia
             </p>
 
@@ -40,7 +43,7 @@ export default function Historia() {
 
             <Link
               href="/historia"
-              className="mt-8 inline-block border border-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-pink-200"
+              className="mt-8 inline-block border border-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-[#B89B5E]"
             >
               Conocé nuestra historia
             </Link>

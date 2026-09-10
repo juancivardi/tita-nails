@@ -1,104 +1,130 @@
 export default function Contacto() {
   return (
-    <section className="bg-pink-200 px-6 py-24">
+    <section className="bg-gray-200 px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 md:grid-cols-2">
-          {/* Información */}
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
-              Contacto
-            </p>
+            {/* La Plata */}
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
+                La Plata
+              </p>
 
-            <h2 className="mt-4 text-2xl font-semibold leading-tight text-black md:text-3xl">
-              Vení a conocernos
-            </h2>
+              <div className="mt-10 space-y-6">
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    Dirección
+                  </p>
+                  <p className="mt-1 text-black">
+                    58 Nº 885 (e/ 12 y 13)
+                  </p>
+                </div>
 
-            <p className="mt-6 max-w-lg leading-relaxed text-black">
-              Estamos para ayudarte a encontrar el servicio y el estilo que
-              mejor se adapte a vos.
-            </p>
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    WhatsApp
+                  </p>
+                  <a
+                    href="#"
+                    className="mt-1 block text-black hover:text-[#B89B5E]"
+                  >
+                    221-6267940
+                  </a>
+                </div>
 
-            <div className="mt-10 space-y-6">
-              <div>
-                <p className="text-sm font-semibold text-[#B89B5E]">Dirección</p>
-                <p className="mt-1 text-black">
-                  La Plata - 58 Nª 885 (e/ 12 y 13)
-                </p>
-                <p className="mt-1 text-black">
-                  Palermo - Honduras Nº 3717 - 6A
-                </p>
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    Instagram
+                  </p>
+                  <a
+                    href="#"
+                    className="mt-1 block text-black hover:text-[#B89B5E]"
+                  >
+                    @titanails
+                  </a>
+                </div>
+
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    Horarios
+                  </p>
+                  <p className="mt-1 text-black">
+                    Martes a Sábados - 08:00hs a 20:00hs
+                  </p>
+                </div>
+
+                <div className="mt-8 overflow-hidden rounded">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.2805574296904!2d-57.95226662512751!3d-34.92450007450866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7ec409843ef%3A0x1d43ccfbdc04344b!2sTita%20Nails!5e0!3m2!1ses-419!2sar!4v1789012959705!5m2!1ses-419!2sar"
+                    className="h-[350px] w-full border-0"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Tita Nails La Plata"
+                  />
+                </div>
               </div>
+            </div>
 
-              <div>
-                <p className="text-sm font-semibold text-[#B89B5E]">WhatsApp - La Plata</p>
-                <a
-                  href="#"
-                  className="mt-1 block text-black hover:text-[#B89B5E]"
-                >
-                 221-6267940
-                </a>
-              </div>
+            {/* Palermo */}
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#B89B5E]">
+                Palermo
+              </p>
 
-              <div>
-                <p className="text-sm font-semibold text-[#B89B5E]">WhatsApp - Palermo</p>
-                <a
-                  href="#"
-                  className="mt-1 block text-black hover:text-[#B89B5E]"
-                >
-                  11-7080-1195
-                </a>
-              </div>
-              
+              <div className="mt-10 space-y-6">
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    Dirección
+                  </p>
+                  <p className="mt-1 text-black">
+                    Honduras Nº 3717 - 6A
+                  </p>
+                </div>
 
-              <div>
-                <p className="text-sm font-semibold text-[#B89B5E]">
-                  Instagram
-                </p>
-                <a
-                  href="#"
-                  className="mt-1 block text-black hover:text-[#B89B5E]"
-                >
-                  @titanails
-                </a>
-              </div>
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    WhatsApp
+                  </p>
+                  <a
+                    href="#"
+                    className="mt-1 block text-black hover:text-[#B89B5E]"
+                  >
+                    11-7080-1195
+                  </a>
+                </div>
 
-              <div>
-                <p className="text-sm font-semibold text-[#B89B5E]">
-                  Horarios (La Plata)
-                </p>
-                <p className="mt-1 text-black">
-                  Martes a Sábados - 08:00hs a 20:00hs
-                </p>
-              </div>
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    Instagram
+                  </p>
+                  <a
+                    href="#"
+                    className="mt-1 block text-black hover:text-[#B89B5E]"
+                  >
+                    @titanails
+                  </a>
+                </div>
 
-              <div>
-                <p className="text-sm font-semibold text-[#B89B5E]">
-                  Horarios (Palermo)
-                </p>
-                <p className="mt-1 text-black">
-                  Lunes a Sábados - 09:00hs a 20:00hs
-                </p>
+                <div>
+                  <p className="text-sm font-semibold text-[#B89B5E]">
+                    Horarios
+                  </p>
+                  <p className="mt-1 text-black">
+                    Lunes a Sábados - 09:00hs a 20:00hs
+                  </p>
+                </div>
+
+                <div className="mt-8 overflow-hidden rounded">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4064561054292!2d-58.41755332426013!3d-34.59388217295778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb752012b55d%3A0x21f000b5d193be53!2sTita%20Nails%20Palermo!5e0!3m2!1ses-419!2sar!4v1789012905741!5m2!1ses-419!2sar"
+                    className="h-[350px] w-full border-0"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Tita Nails Palermo"
+                  />
+                </div>
               </div>
             </div>
           </div>
-
-          {/* Mapa */}
-          <div className="min-h-[400px] bg-white">
-            <div className="flex h-full min-h-[400px] items-center justify-center">
-              <div className="text-center">
-                <span className="text-4xl text-[#B89B5E]">⌖</span>
-
-                <p className="mt-4 font-medium text-black">
-                  Ubicación de Tita Nails
-                </p>
-
-                <p className="mt-2 text-sm text-black">
-                  Mapa
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

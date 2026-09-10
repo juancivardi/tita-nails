@@ -6,9 +6,9 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="text-2xl font-semibold tracking-wide text-[#B89B5E]"
+          className="text-2xl font-serif tracking-wide text-[#B89B5E]"
         >
-          Tita Nails
+          TITA NAILS
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
