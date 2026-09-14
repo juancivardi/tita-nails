@@ -14,7 +14,7 @@ const servicios: Servicio[] = [
       <>
       El kapping es una <span className="font-bold"> técnica de construcción </span>que recubre y acompaña el largo de tus uñas naturales, aportándoles mayor resistencia y protección. Lo realizamos en tres materiales: acrílico, polygel y gel.
       </> ),
-  imagen: "/images/kapping.jpg",
+  imagen: "/images/kapping.jpeg",
   },
   {
     nombre: "Esculpidas",
@@ -24,7 +24,7 @@ const servicios: Servicio[] = [
       que ademas de recubrir tus uñas naturales, permite <span className="font-bold"> extender su largo. </span> 
       Al igual que el kapping, podés elegir entre tres materiales: acrílico, polygel y gel.
       </> ),
-    imagen: "/images/esculpidas.jpg",
+    imagen: "/images/esculpidas.jpeg",
   },
   {
     nombre: "Soft gel",
@@ -33,7 +33,7 @@ const servicios: Servicio[] = [
       Las soft gel se realizan mediante <span className="font-bold"> tips </span> 
       que se adhieren sobre la uña natural y permiten mantener o extender el largo, logrando un resultado prolijo y delicado.
       </> ),
-    imagen: "/images/softgel.jpg",
+    imagen: "/images/softgel.jpeg",
   },
   {
     nombre: "Semipermanente",
@@ -41,7 +41,7 @@ const servicios: Servicio[] = [
       <>
       Si ya tenés <span className="font-bold"> el largo, la firmeza y la forma </span> que buscás, podés darle color a tus uñas con nuestro servicio de semipermanente.
       </> ),
-    imagen: "/images/semipermanente.jpg",
+    imagen: "/images/semipermanente.jpeg",
   },
 ];
 
