@@ -40,24 +40,19 @@ export default function Historia() {
         <div className="mt-5 grid items-center md:grid-cols-2">
             <div>
                 <div className="mt-6 space-y-4 text-base leading-relaxed text-black">
-                <p>
-                   Tita Nails nació con el objetivo de crear un espacio donde
-                    cada persona pudiera disfrutar de un momento para sí misma.
-                </p>
+                  <p>
+                    Tita Nails nació con el objetivo de crear un espacio donde
+                      cada persona pudiera disfrutar de un momento para sí misma.
+                  </p>
 
-                <p>
-                    Con el tiempo, el proyecto fue creciendo, incorporando nuevos
-                    servicios, profesionales y muchas historias compartidas con
-                    nuestras clientas.
-                </p>
+                  <p>
+                      Con el tiempo, el proyecto fue creciendo, incorporando nuevos
+                      servicios, profesionales y muchas historias compartidas con
+                      nuestras clientas.
+                  </p>
                 </div>
-                    <Link
-                    href="/contacto"
-                    className="mt-8 inline-block border border-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-[#B89B5E]"
-                    >
-                    Conoce más de nosotros
-                    </Link>
-                </div>
+                    
+            </div>
 
                 <div className="mx-auto w-full max-w-[300]">
                     <div className="mt-10 relative aspect-[4/5] overflow-hidden rounded shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
@@ -70,6 +65,13 @@ export default function Historia() {
                     />
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center">
+              <Link
+                href="/contacto"
+                className="center mt-8 inline-block border border-[#B89B5E] px-7 py-3 text-sm font-medium text-black transition hover:bg-[#B89B5E]">
+                  Conoce más de nosotros
+              </Link>
             </div>
       </div>
     </section>
