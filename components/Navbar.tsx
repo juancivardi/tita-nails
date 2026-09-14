@@ -80,7 +80,7 @@ export default function Navbar() {
               </a>
 
               <a
-                href="/#estudio"
+                href="/servicios"
                 onClick={closeMenu}
                 className="text-sm text-gray-800"
               >
@@ -88,7 +88,7 @@ export default function Navbar() {
               </a>
 
               <a
-                href="/#areas"
+                href="/historia"
                 onClick={closeMenu}
                 className="text-sm text-gray-800"
               >
@@ -96,7 +96,7 @@ export default function Navbar() {
               </a>
 
               <a
-                href="/#contacto"
+                href="/contacto"
                 onClick={closeMenu}
                 className="text-sm text-gray-800"
               >
