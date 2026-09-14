@@ -7,7 +7,7 @@ export default function Historia() {
       <div className="mx-auto max-w-6xl">
         <div className="grid items-center gap-4 md:grid-cols-2">
           <div className="relative mx-auto w-full max-w-[300]">
-            <div className="relative aspect-[4/5] overflow-hidden rounded shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+            <div className=" mb-10 relative aspect-[4/5] overflow-hidden rounded shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
               <Image
                 src="/images/local2.jpg"
                 alt="Tita Nails, centro de estetica de uñas"
@@ -60,7 +60,7 @@ export default function Historia() {
                 </div>
 
                 <div className="mx-auto w-full max-w-[300]">
-                    <div className="relative aspect-[4/5] overflow-hidden rounded shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+                    <div className="mt-10 relative aspect-[4/5] overflow-hidden rounded shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
                     <Image
                         src="/images/local1.jpg"
                         alt="Tita Nails, centro de estetica de uñas"
