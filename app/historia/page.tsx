@@ -25,14 +25,7 @@ export default function Historia() {
 
             <div className="mt-6 space-y-4 text-base leading-relaxed text-black">
               <p>
-                Tita Nails nació con el objetivo de crear un espacio donde
-                cada persona pudiera disfrutar de un momento para sí misma.
-              </p>
-
-              <p>
-                Con el tiempo, el proyecto fue creciendo, incorporando nuevos
-                servicios, profesionales y muchas historias compartidas con
-                nuestras clientas.
+                Proximamente vas a conocer más de nuestra historia en esta sección...
               </p>
             </div>
           </div>
@@ -40,15 +33,9 @@ export default function Historia() {
         <div className="mt-5 grid items-center md:grid-cols-2">
             <div>
                 <div className="mt-6 space-y-4 text-base leading-relaxed text-black">
-                  <p>
-                    Tita Nails nació con el objetivo de crear un espacio donde
-                      cada persona pudiera disfrutar de un momento para sí misma.
-                  </p>
 
                   <p>
-                      Con el tiempo, el proyecto fue creciendo, incorporando nuevos
-                      servicios, profesionales y muchas historias compartidas con
-                      nuestras clientas.
+                      ¡Gracias por ser parte de la familia Tita!
                   </p>
                 </div>
                     
