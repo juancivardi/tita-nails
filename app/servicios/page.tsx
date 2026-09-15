@@ -43,6 +43,14 @@ const servicios: Servicio[] = [
       </> ),
     imagen: "/images/semipermanente.jpeg",
   },
+  {
+    nombre: "Pedicuria",
+    descripcion: (
+      <>
+      Elegí entre nuestros 3 servicios de pies: <span className="font-bold">pedicuria, spa y/o belleza  </span> o combínalos como quieras y dale a tus pies el estilo que buscás.
+      </> ),
+    imagen: "/images/pies.jpeg",
+  },
 ];
 
 export default function Servicios() {

@@ -25,4 +25,9 @@ export const servicios: Servicio[] = [
     descripcion: "Dale color a tus uñas naturales con nuestra cartera de +180 colores.",
     imagen: "/images/semipermanente.jpeg",
   },
+  {
+    nombre: "Pedicuria",
+    descripcion: "Elegì entre nuestros 3 servicios para pies y conseguí el resultado que buscas",
+    imagen: "/images/pies.jpeg",
+  },
 ];
