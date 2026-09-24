@@ -25,10 +25,16 @@ export default function Historia() {
 
             <div className="mt-6 space-y-4 text-base leading-relaxed text-black">
               <p className="font-serif leading-relaxed">
-                Tita Nails es el proyecto que comenzó en 2018 de la mano de Enmanuela, conocida como Tita.
-                Tita estudiaba para contadora mientras trabajaba como manicura para mantener su carrera, etapa en donde descubrió su verdadera pasión por el oficio de la belleza de manos.
-                En ese momento, decide abandonar la carrera de contadora para enfocarse plenamente en su nueva pasión. <br/>
-                Comienza junto a Maria, su hermana, a perfeccionarse en Buenos Aires realizando cursos de las mejores expertas y expertos, exponentes de la belleza de manos, aprendiendo nuevas tecnicas, marcas y tecnologías que eventualmente incorporaria en su futuro salón de uñas.
+              Tita Nails es un proyecto que comenzó en 2018 de la mano de Ema, conocida como Tita.
+              <br/>
+              <br/>
+              En ese momento, Tita estudiaba la carrera de Contador Público y fue durante esta etapa cuando descubrió su verdadera pasión por el mundo de la manicuría. Así, decidió dejar la carrera para dedicarse plenamente a aquello que realmente la apasionaba.
+              <br/>
+              <br/>
+              Junto a María (Mari), su hermana, comenzó a perfeccionarse en Buenos Aires, realizando cursos con reconocidas educadoras y educadores del mundo de la belleza de manos. Allí incorporaron nuevas técnicas, marcas y tendencias que, con el tiempo, pasarían a formar parte de la propuesta de su futuro salón de uñas.
+              <br/>
+              <br/>
+              Tita Nails nace en La Plata, de la mano de Tita, quien, con el apoyo incondicional de Mari y un pequeño equipo de trabajo, fue construyendo este proyecto con mucho esfuerzo, dedicación y aprendizaje, hasta lograr consolidarse en la ciudad y recibir hoy en día a cientos de clientas mes a mes.
               </p>
             </div>
           </div>
@@ -37,11 +43,23 @@ export default function Historia() {
             <div>
                 <div className="mt-6 space-y-4 text-base leading-relaxed text-black">
                   <p className="font-serif leading-relaxed">
-                    Desde un garage en casa de sus padres, hasta su primer alquiler de un departamento, llegamos a la actualidad donde Tita Nails cuenta con dos sucursales, una en Palermo y otra en el centro de la ciudad de La Plata. <br/>
-                    Trabajando y siguiendo un objetivo, ofreciendo perfeccionamiento a sus manicuras, brindando servicios de manicuria de vanguardia, formando equipos sólidos, contando con productos de excelencia y una alta variedad de colores, decoraciones y las últimas tecnologias, Tita Nails creció hasta llegar a tener más de mil personas que eligen mes a mes realizar sus uñas en sus salones.
-                    <br/> Si todavía no formas parte de la famila de Tita Nails te invitamos a conocernos.
-                    <br/> ¡Te esperamos! 
-                  </p>
+                En 2023, Mari decidió emprender su propio camino y abrirse paso en el mundo de las uñas, llevando el nombre de Tita Nails a Palermo, Bs As. Comenzó así una nueva etapa, llena de desafíos, esfuerzo y trabajo constante, un camino en el que, una vez más, el apoyo de Tita y su familia fue fundamental.
+                <br/>
+                <br/>
+                Con el objetivo de ofrecer una experiencia de excelencia, en Tita Nails apostamos a la capacitación constante de nuestras manicuras y a los perfeccionamientos. También trabajamos continuamente en la incorporación y mejora de servicios de manicuría de vanguardia, equipos profesionales y productos de excelencia.
+                <br/>
+                <br/>
+                A esto se suma una amplia variedad de colores, decoraciones y las últimas tendencias, para que cada clienta pueda encontrar una propuesta que se adapte a su estilo.
+                <br/>
+                <br/>
+                Todo este recorrido permitió que Tita Nails creciera hasta llegar a muchas personas que, mes a mes, eligen realizarse las uñas en nuestros salones.
+                <br/>
+                <br/>
+                Hoy seguimos creciendo con la misma pasión del primer día, llevando con nosotras todo lo aprendido a lo largo de estos años.
+                <br/>
+                <br/>
+                Si todavía no formás parte de la comunidad de Tita Nails, te invitamos a conocernos.
+                </p>
                 </div>
                     
             </div>
